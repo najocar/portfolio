@@ -161,7 +161,7 @@ body {
   display: flex;
   height: 70%;
   justify-content: center;
-  margin-top: 7vh;
+  margin-top: 18vh;
   align-items: center;
 }
 
@@ -202,6 +202,10 @@ body {
   margin-bottom: -6vh;
 }
 
+/* img {
+  box-shadow: black -5px 4px 10px;
+} */
+
 @media screen and (max-width: 680px) {
   html {
     min-width: 100%;
@@ -237,6 +241,10 @@ body {
 
   #lenguajes {
     min-height: 40vh;
+  }
+
+  #imagenesLenguajes {
+    margin-top: 7vh;
   }
 
   #contacto h1 {
