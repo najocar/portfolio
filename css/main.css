@@ -1,0 +1,146 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #909090;
+  overflow-x: hidden;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(57, 57, 57);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(74, 74, 74);
+}
+
+body {
+  margin: 0px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+/* etiquetas */
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+.topnavBaja {
+  background-color: rgba(79, 79, 79, 0.922);
+  transition: background .3s;
+}
+
+.topnavAlta {
+  background-color: rgba(156, 156, 156, 0.308);
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #bebebe;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+/* .topnav a.active {
+  background-color: #bebebe;
+  color: white;
+} */
+
+#curriculum {
+  float: right;
+  border: black 1.5px solid;
+  border-radius: 10px;
+  height: 80%;
+  padding: 12px 16px;
+  background-color: rgba(192, 255, 192, 0.388);
+  margin-right: 5px;
+  color: black;
+}
+
+#backgroundInicio {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/code-1084923.png);
+  background-color: rgba(37, 37, 37, 0.6);
+  background-blend-mode: darken;
+  margin: 0px;
+}
+
+.titulo {
+  color: white;
+  text-shadow: black 0px 0px 50px;
+}
+
+.apartado {
+  margin-left: 6%;
+  font-weight: bolder;
+  font-size: 2.5em;
+}
+
+.animado {
+  opacity: 0;
+}
+
+.mostrarDerecha {
+  animation: mostrarDerecha .7s;
+}
+
+@keyframes mostrarDerecha {
+  0% {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translatex(0);
+    opacity: 1;
+  }
+}
+
+#sobre_mi {
+  background-image: url(../img/laptop.png);
+  background-size: 20%;
+  background-position: 90% 60%;
+  background-repeat: no-repeat;
+}
+
+#lenguajes {
+  height: 70vh;
+}
+
+#imagenesLenguajes {
+  display: flex;
+  height: 70%;
+  justify-content: center;
+  margin-top: 7vh;
+  align-items: center;
+}
+
+#contactos h2 {
+  display: inline;
+  margin: auto;
+}
