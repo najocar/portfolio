@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  min-width: 100%;
 }
 
 /* width */
@@ -90,9 +91,23 @@ body {
   margin: 0px;
 }
 
+#inicio div {
+  text-align: center;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.224) 40%, rgba(0, 0, 0, 0) 70%);
+  width: 50%;
+}
+
 .titulo {
   color: white;
   text-shadow: black 0px 0px 50px;
+}
+
+#titulo1 {
+  font-size: 4em;
+}
+
+#titulo2 {
+  font-size: 2em;
 }
 
 .apartado {
@@ -126,10 +141,20 @@ body {
   background-size: 20%;
   background-position: 90% 60%;
   background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+#sobre_mi p {
+  margin-left: 6%;
+  width: 60%;
+  font-size: 1.2em;
+  text-align: justify;
 }
 
 #lenguajes {
-  height: 70vh;
+  min-height: 70vh;
 }
 
 #imagenesLenguajes {
@@ -146,9 +171,14 @@ body {
   padding-top: 1vh;
 }
 
+#contacto h1 {
+  top: -70px;
+  position: relative;
+}
+
 #contactos {
   display: flex;
-  height: 10vh;
+  min-height: 10vh;
 }
 
 #contactos i {
@@ -170,4 +200,95 @@ body {
 
 #curva {
   margin-bottom: -6vh;
+}
+
+@media screen and (max-width: 680px) {
+  html {
+    min-width: 100%;
+  }
+
+  body {
+    min-width: 100%;
+  }
+
+  #titulo1 {
+    font-size: 3.5em;
+  }
+
+  #inicio div {
+    width: 70%;
+  }
+
+  #titulo2 {
+    font-size: 2em;
+  }
+
+  .apartado {
+    font-size: 2em;
+  }
+
+  #contactos h2 {
+    font-size: 1em;
+  }
+
+  #sobre_mi {
+    min-height: 70vh;
+  }
+
+  #lenguajes {
+    min-height: 40vh;
+  }
+
+  #contacto h1 {
+    top: -30px;
+  }
+
+  #contactos h2 {
+    top: -25px;
+  }
+
+}
+
+@media screen and (max-width: 589px) {
+  #curriculum {
+    display: none;
+  }
+
+  #titulo1 {
+    font-size: 3.5em;
+  }
+
+  #titulo2 {
+    font-size: 2em;
+  }
+
+  #sobre_mi {
+    background-image: none;
+  }
+
+  #sobre_mi p {
+    margin-left: 6%;
+    width: 88%;
+  }
+
+  #contactos {
+    display: block;
+  }
+
+  #contacto h1 {
+    top: -20px;
+  }
+
+  #contactos h2 {
+    top: -14px;
+  }
+
+}
+
+@media screen and (max-width: 429px) {
+
+  #inicio div {
+    width: 80%;
+  }
+
 }
