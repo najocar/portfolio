@@ -140,7 +140,34 @@ body {
   align-items: center;
 }
 
+#contacto {
+  background-color: rgb(36, 36, 36);
+  color: white;
+  padding-top: 1vh;
+}
+
+#contactos {
+  display: flex;
+  height: 10vh;
+}
+
+#contactos i {
+  font-size: 1.4em;
+  margin-right: 5px;
+}
+
 #contactos h2 {
-  display: inline;
+  top: -50px;
+  position: relative;
   margin: auto;
+  text-align: center;
+}
+
+#contactos a {
+  text-decoration: none;
+  color: white;
+}
+
+#curva {
+  margin-bottom: -6vh;
 }
