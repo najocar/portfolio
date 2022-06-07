@@ -14,7 +14,6 @@ function mostrarScroll() {
         }
     }
     if (scrollTop > alturaInicio -50) {
-        console.log("hola");
         barra.classList.remove("topnavAlta");
         barra.classList.add("topnavBaja")
 
