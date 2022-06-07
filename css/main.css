@@ -281,6 +281,10 @@ body {
     width: 88%;
   }
 
+  /* #imagenesLenguajes img{
+    width: 20%;
+  } */
+
   #contactos {
     display: block;
   }
@@ -299,6 +303,10 @@ body {
 
   #inicio div {
     width: 80%;
+  }
+
+  #imagenesLenguajes img{
+    width: 40%;
   }
 
 }
