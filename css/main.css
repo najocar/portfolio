@@ -220,7 +220,7 @@ svg {
   overflow: hidden;
   position: relative;
   animation: olas infinite 15s;
-  animation-timing-function: ease-out;
+  animation-timing-function: ease-in-out;
   bottom: -100px;
 }
 
