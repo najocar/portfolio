@@ -197,6 +197,7 @@ body {
 
 .grid-item img {
   width: 60%;
+  box-shadow: rgb(36, 36, 36) 0px 0px 10px;
 }
 
 .image {
