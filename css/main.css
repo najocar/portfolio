@@ -89,6 +89,7 @@ body {
 #backgroundInicio {
   height: 100vh;
   width: 100%;
+  background: fixed;
   background-image: url(../img/code-1084923.png);
   background-color: rgba(37, 37, 37, 0.6);
   background-blend-mode: darken;
@@ -99,13 +100,14 @@ body {
 
 #inicio div {
   text-align: center;
-  background-image: radial-gradient(rgba(0, 0, 0, 0.224) 40%, rgba(0, 0, 0, 0) 70%);
+  /* background-image: radial-gradient(rgba(0, 0, 0, 0.224) 40%, rgba(0, 0, 0, 0) 70%); */
   width: 50%;
 }
 
 .titulo {
   color: white;
-  text-shadow: black 0px 0px 50px;
+  
+  /* text-shadow: black 0px 0px 50px; */
 }
 
 #titulo1 {
@@ -164,6 +166,8 @@ body {
   /* cambio */
   padding-top: 10px;
   background-color: #a7a7a776;
+  /* background-repeat: no-repeat; */
+  /* background-image: linear-gradient(155deg, #a7a7a776 30%, #ffffff76 60%, #a7a7a776 30%); */
   border-radius: 15px;
   width: 90%;
   margin: auto;
