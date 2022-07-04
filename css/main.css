@@ -147,7 +147,7 @@ body {
 #sobre_mi {
   background-image: url(../img/laptop.png);
   background-size: 20%;
-  background-position: 90% 60%;
+  background-position: 90% 55%;
   background-repeat: no-repeat;
   min-height: 100vh;
   display: flex;
@@ -397,6 +397,12 @@ svg {
 
 }
 
+@media screen and (min-width: 590px) {
+  #curriculum-movil {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 589px) {
   #curriculum {
     display: none;
@@ -412,11 +418,29 @@ svg {
 
   #sobre_mi {
     background-image: none;
+    min-height: 90vh;
   }
 
   #sobre_mi p {
     margin-left: 6%;
     width: 88%;
+  }
+
+  #curriculum-movil {
+    position: relative;
+    top: 6vh;
+    border: black 1.5px solid;
+    border-radius: 15px;
+    height: 80%;
+    padding: 12px 16px;
+    background-color: rgba(192, 255, 192, 0.388);
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
   }
 
   #lenguajes {
@@ -433,6 +457,14 @@ svg {
   /* #imagenesLenguajes img{
     width: 20%;
   } */
+
+  .grid-container {
+    grid-template-columns: auto;
+  }
+
+  .grid-item img {
+    width: 100%;
+  }
 
   #contactos {
     display: block;
@@ -454,17 +486,13 @@ svg {
     width: 23%;
   }
 
-  .grid-item img {
-    width: 120%;
-  }
-
   .overlay {
-    width: 120%;
+    width: 100%;
   }
 
-  .text {
+  /* .text {
     font-size: .8em;
-  }
+  } */
 
   .overlay a {
     top: 10px;
