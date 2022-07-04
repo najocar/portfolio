@@ -86,7 +86,7 @@ body {
 }
 
 #backgroundInicio {
-  height: 100ch;
+  height: 100vh;
   width: 100%;
   background: fixed;
   background-image: url(../img/code-1084923.png);
