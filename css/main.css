@@ -1,7 +1,6 @@
 html {
   scroll-behavior: smooth;
   min-width: 100%;
-  transition: height 40s;
 }
 
 /* width */
@@ -87,7 +86,7 @@ body {
 }
 
 #backgroundInicio {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background: fixed;
   background-image: url(../img/code-1084923.png);
