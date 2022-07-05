@@ -1,7 +1,6 @@
 html {
   scroll-behavior: smooth;
   min-width: 100%;
-  height: 100%;
 }
 
 /* width */
@@ -29,7 +28,6 @@ html {
 
 body {
   margin: 0px;
-  height: 100%;
   font-family: 'Libre Franklin', sans-serif;
   overflow: overlay;
 }
@@ -88,7 +86,7 @@ body {
 }
 
 #backgroundInicio {
-  height: 100%;
+  height: 100vh;
   width: 100%;
   background: fixed;
   background-image: url(../img/code-1084923.png);
@@ -405,6 +403,10 @@ svg {
 }
 
 @media screen and (max-width: 589px) {
+  #backgroundInicio {
+    height: 90vh;
+  }
+
   #curriculum {
     display: none;
   }
