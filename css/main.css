@@ -404,7 +404,7 @@ svg {
 
 @media screen and (max-width: 589px) {
   #backgroundInicio {
-    height: 90vh;
+    height: 100%;
   }
 
   #curriculum {
