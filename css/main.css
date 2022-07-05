@@ -405,7 +405,7 @@ svg {
 @media screen and (max-width: 589px) {
   #backgroundInicio {
     height: 100%;
-    background-size: 400%;
+    background-attachment: scroll;
   }
 
   #curriculum {
